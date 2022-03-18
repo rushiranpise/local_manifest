@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+    <remote name="LineageOS"
+
+            fetch="https://github.com/LineageOS" />
+
+<!-- Device tree -->
+
+<project path="device/motorola/chef" name="android_device_motorola_chef.git" remote="LineageOS" revision="lineage-19.1" />
+
+<!-- Vendor tree -->
+
+<project path="vendor/motorola" name="proprietary_vendor_motorola.git" remote="fiqri19102002" revision="arrow-12.0" />
+
+<!-- Kernel tree -->
+
+<project path="kernel/motorola/msm8998" name="android_kernel_motorola_msm8998.git" remote="fiqri19102002" revision="inline-rom" />
+
+<!-- common tree -->
+
+<project path="device/motorola/sdm660-common" name="android_device_motorola_sdm660-common.git" remote="fiqri19102002" revision="arrow-12.0-a3" />
+
+
+
+
+
+</manifest>
