@@ -2,28 +2,30 @@
 
 <manifest>
 
-    <remote name="LineageOS"
-
-            fetch="https://github.com/LineageOS" />
+    <remote name="PixelExperience-Devices" fetch="https://github.com/PixelExperience-Devices" />
 
 <!-- Device tree -->
 
-<project path="device/motorola/chef" name="android_device_motorola_chef.git" remote="LineageOS" revision="lineage-19.1" />
+<project path="device/motorola/chef" name="device_motorola_chef.git" remote="rushiranpise" revision="PE12" />
 
 <!-- Vendor tree -->
 
-<project path="vendor/motorola" name="proprietary_vendor_motorola.git" remote="TheMuppets" revision="lineage-19.1" />
+<project path="vendor/motorola/chef" name="vendor_motorola_chef.git" remote="rushiranpise" revision="test7" />
+    
+<!-- Common Vendor tree -->
+
+<project path="vendor/motorola/sdm660-common" name="vendor_motorola_sdm660-common.git" remote="pixel-devices-blobs" revision="twelve" />    
 
 <!-- Kernel tree -->
 
-<project path="kernel/motorola/msm8998" name="android_kernel_motorola_msm8998.git" remote="LineageOS" revision="lineage-19.1" />
+<project path="kernel/motorola/msm8998" name="kernel_motorola_msm8998.git" remote="PixelExperience-Devices" revision="twelve" />
 
 <!-- common tree -->
 
-<project path="device/motorola/sdm660-common" name="android_device_motorola_sdm660-common.git" remote="LineageOS" revision="lineage-19.1" />
+<project path="device/motorola/sdm660-common" name="device_motorola_sdm660-common.git" remote="PixelExperience-Devices" revision="twelve" />
+    
+<!-- dependencies-->
 
-
-
-
+<project path="hardware/motorola" name="hardware_motorola.git" remote="PixelExperience" revision="twelve" />
 
 </manifest>
