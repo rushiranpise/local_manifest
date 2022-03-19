@@ -2,11 +2,16 @@
 
 <manifest>
 
+    <remote name="rushiranpise" fetch="https://github.com/rushiranpise" />
     <remote name="PixelExperience-Devices" fetch="https://github.com/PixelExperience-Devices" />
 
 <!-- Device tree -->
 
 <project path="device/motorola/chef" name="device_motorola_chef.git" remote="rushiranpise" revision="PE12" />
+    
+<!-- Common tree -->
+
+<project path="device/motorola/sdm660-common" name="device_motorola_sdm660-common.git" remote="PixelExperience-Devices" revision="twelve" />    
 
 <!-- Vendor tree -->
 
@@ -19,10 +24,6 @@
 <!-- Kernel tree -->
 
 <project path="kernel/motorola/msm8998" name="kernel_motorola_msm8998.git" remote="PixelExperience-Devices" revision="twelve" />
-
-<!-- common tree -->
-
-<project path="device/motorola/sdm660-common" name="device_motorola_sdm660-common.git" remote="PixelExperience-Devices" revision="twelve" />
     
 <!-- dependencies-->
 
