@@ -1,33 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <manifest>
-
-    <remote name="rushiranpise" fetch="https://github.com/rushiranpise" />
-    <remote name="PixelExperience" fetch="https://github.com/PixelExperience" />
-    <remote name="PixelExperience-Devices" fetch="https://github.com/PixelExperience-Devices" />
-
-<!-- Device tree -->
-
+<!--Remote-->
+<remote name="rushiranpise" fetch="https://github.com/rushiranpise" />
+<remote name="PixelExperience" fetch="https://github.com/PixelExperience" />
+<remote name="PixelExperience-Devices" fetch="https://github.com/PixelExperience-Devices" />
+ 
+<!--Trees-->
+<!-- Device Tree -->
 <project path="device/motorola/chef" name="device_motorola_chef.git" remote="rushiranpise" revision="PE12" />
-    
-<!-- Common tree -->
+  
+<!-- Common Tree -->
+<project path="device/motorola/sdm660-common" name="device_motorola_sdm660-common.git" remote="PixelExperience-Devices" revision="twelve" />
 
-<project path="device/motorola/sdm660-common" name="device_motorola_sdm660-common.git" remote="PixelExperience-Devices" revision="twelve" />    
-
-<!-- Vendor tree -->
-
+ <!-- Vendor tree -->
 <project path="vendor/motorola/chef" name="vendor_motorola_chef.git" remote="rushiranpise" revision="test7" />
-    
-<!-- Common Vendor tree -->
-
-<project path="vendor/motorola/sdm660-common" name="vendor_motorola_sdm660-common.git" remote="pixel-devices-blobs" revision="twelve" />    
-
-<!-- Kernel tree -->
-
+  
+<!-- Vendor Common Tree
+<project path="vendor/motorola/sdm660-common" name="vendor_motorola_sdm660-common.git" remote="pixel-devices-blobs" revision="twelve" />  -->
+   
+<!-- Kernel Tree -->
 <project path="kernel/motorola/msm8998" name="kernel_motorola_msm8998.git" remote="PixelExperience-Devices" revision="twelve" />
-    
-<!-- dependencies-->
-
+  
+ <!-- HW Tree -->
 <project path="hardware/motorola" name="hardware_motorola.git" remote="PixelExperience" revision="twelve" />
-
 </manifest>
