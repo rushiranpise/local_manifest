@@ -3,6 +3,7 @@
 <manifest>
 
     <remote name="rushiranpise" fetch="https://github.com/rushiranpise" />
+    <remote name="PixelExperience" fetch="https://github.com/PixelExperience" />
     <remote name="PixelExperience-Devices" fetch="https://github.com/PixelExperience-Devices" />
 
 <!-- Device tree -->
