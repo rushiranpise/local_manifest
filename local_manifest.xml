@@ -1,29 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <manifest>
+<!--Remote-->
+<remote name="los" fetch="https://github.com/LineageOS" />
+<remote name="mup" fetch="https://github.com/TheMuppets" />
+ 
+<!--Trees-->
+<!-- Device Tree -->
+<project path="device/motorola/chef" name="android_device_motorola_chef.git" remote="los" revision="lineage-19.1" />
+  
+<!-- Common Tree -->
+<project path="device/motorola/sdm660-common" name="android_device_motorola_sdm660-common.git" remote="los" revision="lineage-19.1" />
 
-    <remote name="rushiranpise" fetch="https://github.com/rushiranpise" />
-    <remote name="LineageOS" fetch="https://github.com/LineageOS" />
-    <remote name="TheMuppets" fetch="https://github.com/TheMuppets" />
-    
-<!-- Device tree -->
-
-<project path="device/motorola/chef" name="android_device_motorola_chef.git" remote="LineageOS" revision="lineage-19.1" />
-    
-<!-- common tree -->
-
-<project path="device/motorola/sdm660-common" name="android_device_motorola_sdm660-common.git" remote="LineageOS" revision="lineage-19.1" />    
-
-<!-- Vendor tree -->
-
-<project path="vendor/motorola" name="proprietary_vendor_motorola.git" remote="TheMuppets" revision="lineage-19.1" />
-
-<!-- Kernel tree -->
-
-<project path="kernel/motorola/msm8998" name="android_kernel_motorola_msm8998.git" remote="LineageOS" revision="lineage-19.1" />
-    
-<!-- dependencies-->
-
-<project path="hardware/motorola" name="android_hardware_motorola.git" remote="LineageOS" revision="lineage-19.1" />
-
+ <!-- Vendor tree -->
+<project path="vendor/motorola" name="proprietary_vendor_motorola.git" remote="mup" revision="lineage-19.1" />
+   
+<!-- Kernel Tree -->
+<project path="kernel/motorola/msm8998" name="android_kernel_motorola_msm8998.git" remote="los" revision="lineage-19.1" />
+  
+ <!-- HW Tree -->
+<project path="hardware/motorola" name="android_hardware_motorola.git" remote="los" revision="lineage-19.1" />
 </manifest>
