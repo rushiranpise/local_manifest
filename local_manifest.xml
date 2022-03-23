@@ -3,10 +3,11 @@
 <!--Remote-->
 <remote name="los" fetch="https://github.com/LineageOS" />
 <remote name="mup" fetch="https://github.com/TheMuppets" />
- 
+<remote name="rushi" fetch="https://github.com/rushiranpise" />
+
 <!--Trees-->
 <!-- Device Tree -->
-<project path="device/motorola/chef" name="android_device_motorola_chef.git" remote="los" revision="lineage-19.1" />
+<project path="device/motorola/chef" name="android_device_motorola_chef.git" remote="rushi" revision="lineage-19.1" />
   
 <!-- Common Tree -->
 <project path="device/motorola/sdm660-common" name="android_device_motorola_sdm660-common.git" remote="los" revision="lineage-19.1" />
