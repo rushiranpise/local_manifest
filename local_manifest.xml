@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!--Remote-->
-<remote name="rushiranpise" fetch="https://github.com/rushiranpise" />
-<remote name="PixelExperience" fetch="https://github.com/PixelExperience" />
-<remote name="PixelExperience-Devices" fetch="https://github.com/PixelExperience-Devices" />
- 
+<remote name="los" fetch="https://github.com/LineageOS" />
+<remote name="mup" fetch="https://github.com/TheMuppets" />
+<remote name="rushi" fetch="https://github.com/rushiranpise" />
+
 <!--Trees-->
 <!-- Device Tree -->
-<project path="device/motorola/chef" name="device_motorola_chef.git" remote="rushiranpise" revision="PE12" />
+<project path="device/motorola/chef" name="android_device_motorola_chef-lineage.git" remote="rushi" revision="lineage-19.1" />
   
 <!-- Common Tree -->
-<project path="device/motorola/sdm660-common" name="device_motorola_sdm660-common.git" remote="PixelExperience-Devices" revision="twelve" />
+<project path="device/motorola/sdm660-common" name="android_device_motorola_sdm660-common.git" remote="los" revision="lineage-19.1" />
 
  <!-- Vendor tree -->
-<project path="vendor/motorola/chef" name="vendor_motorola_chef.git" remote="rushiranpise" revision="test7" />
-  
-<!-- Vendor Common Tree
-<project path="vendor/motorola/sdm660-common" name="vendor_motorola_sdm660-common.git" remote="pixel-devices-blobs" revision="twelve" />  -->
+<project path="vendor/motorola" name="proprietary_vendor_motorola.git" remote="mup" revision="lineage-19.1" />
    
 <!-- Kernel Tree -->
-<project path="kernel/motorola/msm8998" name="kernel_motorola_msm8998.git" remote="PixelExperience-Devices" revision="twelve" />
+<project path="kernel/motorola/msm8998" name="android_kernel_motorola_msm8998.git" remote="rushi" revision="patch-1" />
   
  <!-- HW Tree -->
-<project path="hardware/motorola" name="hardware_motorola.git" remote="PixelExperience" revision="twelve" />
+<project path="hardware/motorola" name="android_hardware_motorola.git" remote="los" revision="lineage-19.1" />
+ 
 </manifest>
