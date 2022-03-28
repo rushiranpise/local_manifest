@@ -5,10 +5,11 @@
 <remote name="pe" fetch="https://github.com/PixelExperience" />
 <remote name="pedev" fetch="https://github.com/PixelExperience-Devices" />
 <remote name="sdm660" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
+<remote name="motoonepower" fetch="https://github.com/motoonepower" /> 
  
 <!--Trees-->
 <!-- Device Tree -->
-<project path="device/motorola/chef" name="device_motorola_chef.git" remote="rushiranpise" revision="PE12" />
+<project path="device/motorola/chef" name="device_motorola_chef.git" remote="rushiranpise" revision="aex" />
   
 <!-- Common Tree -->
 <project path="device/motorola/sdm660-common" name="device_motorola_sdm660-common.git" remote="pedev" revision="twelve" />
@@ -23,5 +24,5 @@
 <project path="kernel/motorola/msm8998" name="kernel_motorola_msm8998.git" remote="pedev" revision="twelve" />
   
  <!-- HW Tree -->
-<project path="hardware/motorola" name="hardware_motorola.git" remote="pe" revision="twelve" />
+<project path="hardware/motorola" name="hardware_motorola.git" remote="motoonepower" revision="adapt" />
 </manifest>
