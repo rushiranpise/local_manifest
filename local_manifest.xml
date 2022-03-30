@@ -25,4 +25,9 @@
   
  <!-- HW Tree -->
 <project path="hardware/motorola" name="hardware_motorola.git" remote="motoonepower" revision="aex" />
+
+ <!-- Dep -->
+
+<project path="system/qcom" name="system_qcom.git" remote="pe" revision="twelve" />
+
 </manifest>
