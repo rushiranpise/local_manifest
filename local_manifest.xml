@@ -26,5 +26,5 @@
 <project path="hardware/motorola" name="hardware_motorola.git" remote="pe" revision="twelve" />
  
  <!-- Deps -->
-<project path="hardware/motorola" name="packages_resources_devicesettings.git" remote="pe" revision="twelve" />
+<project path="packages/resources/devicesettings" name="packages_resources_devicesettings.git" remote="pe" revision="twelve" />
 </manifest>
