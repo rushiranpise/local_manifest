@@ -5,7 +5,8 @@
 <remote name="pe" fetch="https://github.com/PixelExperience" />
 <remote name="pedev" fetch="https://github.com/PixelExperience-Devices" />
 <remote name="sdm660" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
- 
+<remote name="hard" fetch="https://github.com/PixelPlusUI-SnowCone" />
+
 <!--Trees-->
 <!-- Device Tree -->
 <project path="device/motorola/chef" name="device_motorola_chef.git" remote="rushiranpise" revision="PE12" />
@@ -23,5 +24,5 @@
 <project path="kernel/motorola/msm8998" name="kernel_motorola_msm8998.git" remote="pedev" revision="twelve" />
   
  <!-- HW Tree -->
-<project path="hardware/motorola" name="hardware_motorola.git" remote="pe" revision="twelve" />
+<project path="hardware/motorola" name="hardware_motorola.git" remote="hard" revision="twelve" />
 </manifest>
