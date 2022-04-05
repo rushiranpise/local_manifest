@@ -21,5 +21,8 @@
    
 <!-- Kernel Tree -->
 <project path="kernel/motorola/msm8998" name="kernel_motorola_msm8998.git" remote="pedev" revision="twelve" />
-  
+
+<!-- Remove -->
+<remove-project name="hardware_qcom-caf_sm8350_display" path="hardware/qcom-caf/sm8350/display" />  
+
 </manifest>
