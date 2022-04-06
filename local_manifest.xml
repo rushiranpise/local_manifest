@@ -2,6 +2,7 @@
 <manifest>
 <!--Remote-->
 <remote name="rushiranpise" fetch="https://github.com/rushiranpise" />
+<remote name="motoonepower" fetch="https://github.com/motoonepower" />
 <remote name="pe" fetch="https://github.com/PixelExperience" />
 <remote name="pedev" fetch="https://github.com/PixelExperience-Devices" />
 <remote name="sdm660" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
@@ -24,5 +25,6 @@
 
 <!-- Remove -->
 <remove-project name="hardware_qcom-caf_sm8350_display" path="hardware/qcom-caf/sm8350/display" />  
-
+<remove-project name="system_core" path="system/core" />
+<project path="system/core" name="system_core_ppui.git" remote="motoonepower" revision="snowcone" />
 </manifest>
