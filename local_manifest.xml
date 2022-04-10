@@ -29,8 +29,10 @@
  <!-- Patches -->
 <remove-project name="android_system_qcom" path="system/qcom" />
 <project path="system/qcom" name="system_qcom.git" remote="pe" revision="twelve" />
+  
 <remove-project name="kernel/configs" path="kernel/configs" />
-<project path="kernel/configs" name="kernel_configs.git" remote="motoonepower" revision="patch" />   
+<project path="kernel/configs" name="kernel_configs.git" remote="pe" revision="twelve" />
+  
 <remove-project name="android_hardware_qcom_wlan" path="hardware/qcom-caf/wlan" />
-<project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan_cherish.git" remote="motoonepower" revision="hotspot" />     
+<project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan_cherish.git" remote="motoonepower" revision="wifi" />     
 </manifest>
