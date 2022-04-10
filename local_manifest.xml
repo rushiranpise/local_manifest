@@ -4,6 +4,7 @@
 <remote name="rushiranpise" fetch="https://github.com/rushiranpise" />
 <remote name="pe" fetch="https://github.com/PixelExperience" />
 <remote name="pedev" fetch="https://github.com/PixelExperience-Devices" />
+<remote name="motoonepower" fetch="https://github.com/motoonepower" /> 
 <remote name="sdm660" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
  
 <!--Trees-->
@@ -17,7 +18,7 @@
 <project path="vendor/motorola/chef" name="vendor_motorola_chef.git" remote="rushiranpise" revision="test7" />
   
 <!-- Vendor Common Tree  -->
-<project path="vendor/motorola/sdm660-common" name="vendor_motorola_sdm660-common.git" remote="sdm660" revision="twelve" />
+<project path="vendor/motorola/sdm660-common" name="vendor_motorola_sdm660-common.git" remote="motoonepower" revision="twelve" />
    
 <!-- Kernel Tree -->
 <project path="kernel/motorola/msm8998" name="kernel_motorola_msm8998.git" remote="pedev" revision="twelve" />
