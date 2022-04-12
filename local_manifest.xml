@@ -9,7 +9,7 @@
 
 <!--Trees-->
 <!-- Device Tree -->
-<project path="device/motorola/chef" name="device_motorola_chef.git" remote="rushiranpise" revision="corvus" />
+<project path="device/motorola/chef" name="device_motorola_chef.git" remote="rushiranpise" revision="evo" />
   
 <!-- Common Tree -->
 <project path="device/motorola/sdm660-common" name="device_motorola_sdm660-common.git" remote="pedev" revision="twelve" />
