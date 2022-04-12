@@ -9,7 +9,7 @@
 
 <!--Trees-->
 <!-- Device Tree -->
-<project path="device/motorola/chef" name="device_motorola_chef.git" remote="rushiranpise" revision="cherish" />
+<project path="device/motorola/chef" name="device_motorola_chef.git" remote="rushiranpise" revision="corvus" />
   
 <!-- Common Tree -->
 <project path="device/motorola/sdm660-common" name="device_motorola_sdm660-common.git" remote="pedev" revision="twelve" />
@@ -25,14 +25,5 @@
 
  <!-- HW Tree -->
 <project path="hardware/motorola" name="hardware_motorola.git" remote="motoonepower" revision="adapt" />
-
- <!-- Patches -->
-<remove-project name="android_system_qcom" path="system/qcom" />
-<project path="system/qcom" name="system_qcom.git" remote="pe" revision="twelve" />
-  
-<remove-project name="kernel/configs" path="kernel/configs" />
-<project path="kernel/configs" name="kernel_configs.git" remote="pe" revision="twelve" />
-  
-<remove-project name="android_hardware_qcom_wlan" path="hardware/qcom-caf/wlan" />
-<project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan_cherish.git" remote="motoonepower" revision="wifi" />     
+   
 </manifest>
