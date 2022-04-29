@@ -30,4 +30,7 @@
 
 <project path="system/qcom" name="system_qcom.git" remote="pe" revision="twelve" />
 
+<remove-project name="kernel/configs" path="kernel/configs" />
+<project path="kernel/configs" name="kernel_configs.git" remote="pe" revision="twelve" /> 
+ 
 </manifest>
