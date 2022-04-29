@@ -15,7 +15,7 @@
 <project path="device/motorola/sdm660-common" name="device_motorola_sdm660-common.git" remote="pedev" revision="twelve" />
 
  <!-- Vendor tree -->
-<project path="vendor/motorola/chef" name="vendor_motorola_chef.git" remote="rushiranpise" revision="test7" />
+<project path="vendor/motorola/chef" name="vendor_motorola_chef.git" remote="rushiranpise" revision="twelve" />
   
 <!-- Vendor Common Tree  -->
 <project path="vendor/motorola/sdm660-common" name="vendor_motorola_sdm660-common.git" remote="sdm660" revision="twelve" />
