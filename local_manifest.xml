@@ -8,8 +8,6 @@
 <!--Trees-->
   
 <!-- Patches -->
-<remove-project name="android_hardware_qcom_audio" />
-<project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio.git" remote="pe" revision="twelve" />
   
 <remove-project name="android_system_qcom" path="system/qcom" />
 <project path="system/qcom" name="system_qcom.git" remote="pe" revision="twelve" />
