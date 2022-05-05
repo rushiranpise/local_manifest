@@ -22,5 +22,6 @@
 <project path="hardware/motorola" name="android_hardware_motorola.git" remote="los" revision="lineage-19.1" />
  
  <!-- Dep -->
+<remove-project name="android_system_qcom" path="system/qcom" />  
 <project path="system/qcom" name="android_system_qcom.git" remote="los" revision="lineage-19.1" />
 </manifest>
