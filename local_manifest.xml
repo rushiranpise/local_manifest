@@ -4,7 +4,7 @@
 <remote name="los" fetch="https://github.com/LineageOS" />
 <remote name="mup" fetch="https://github.com/TheMuppets" />
 <remote name="rushi" fetch="https://github.com/rushiranpise" />
-<remote name="aicp" fetch="https://github.com/AICP />  
+<remote name="aicp" fetch="https://github.com/AICP" />  
 
 <!--Trees-->
 <!-- Device Tree -->
