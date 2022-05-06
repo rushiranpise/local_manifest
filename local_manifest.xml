@@ -2,7 +2,7 @@
 <manifest>
 <!--Remote-->
 <remote name="rushiranpise" fetch="https://github.com/rushiranpise" />
-<remote name="pe" fetch="https://github.com/PixelExperience" />
+<remote name="pee" fetch="https://github.com/PixelExperience" />
 <remote name="pedev" fetch="https://github.com/PixelExperience-Devices" />
  
 <!--Trees-->
