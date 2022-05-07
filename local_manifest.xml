@@ -10,7 +10,7 @@
 <project path="device/motorola/chef" name="device_motorola_chef.git" remote="rushiranpise" revision="evo" />
   
 <!-- Common Tree -->
-<project path="device/motorola/sdm660-common" name="device_motorola_sdm660-common.git" remote="rushiranpise" revision="aex-plus" />
+<project path="device/motorola/sdm660-common" name="device_motorola_sdm660-common.git" remote="rushiranpise" revision="evo" />
 
  <!-- Vendor tree -->
 <project path="vendor/motorola/chef" name="vendor_motorola_chef.git" remote="rushiranpise" revision="twelve" />
