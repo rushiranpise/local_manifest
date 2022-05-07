@@ -2,27 +2,28 @@
 <manifest>
 <!--Remote-->
 <remote name="rushiranpise" fetch="https://github.com/rushiranpise" />
-<remote name="motoonepower" fetch="https://github.com/motoonepower" />
 <remote name="pe" fetch="https://github.com/PixelExperience" />
 <remote name="pedev" fetch="https://github.com/PixelExperience-Devices" />
 <remote name="sdm660" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
-
+<remote name="motoonepower" fetch="https://github.com/motoonepower" /> 
+ 
 <!--Trees-->
 <!-- Device Tree -->
 <project path="device/motorola/chef" name="device_motorola_chef.git" remote="rushiranpise" revision="PE12" />
   
 <!-- Common Tree -->
-<project path="device/motorola/sdm660-common" name="device_motorola_sdm660-common.git" remote="pedev" revision="twelve" />
+<project path="device/motorola/sdm660-common" name="device_motorola_sdm660-common.git" remote="rushiranpise" revision="twelve-plus" />
 
  <!-- Vendor tree -->
 <project path="vendor/motorola/chef" name="vendor_motorola_chef.git" remote="rushiranpise" revision="twelve" />
   
 <!-- Vendor Common Tree  -->
-<project path="vendor/motorola/sdm660-common" name="vendor_motorola_sdm660-common.git" remote="motoonepower" revision="twelve" />
+<project path="vendor/motorola/sdm660-common" name="vendor_motorola_sdm660-common.git" remote="rushiranpise" revision="nightlight" />
    
 <!-- Kernel Tree -->
 <project path="kernel/motorola/msm8998" name="kernel_motorola_msm8998.git" remote="pedev" revision="twelve" />
 
-<project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display.git" remote="pe" revision="twelve" />
-<project path="system/qcom" name="system_qcom.git" remote="pe" revision="twelve" />  
+ <!-- Dep -->
+<project path="system/qcom" name="system_qcom.git" remote="pe" revision="twelve" />
+ 
 </manifest>
