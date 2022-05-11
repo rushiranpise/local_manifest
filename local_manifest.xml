@@ -12,13 +12,13 @@
 <project path="device/motorola/chef" name="device_motorola_chef.git" remote="rushiranpise" revision="PE12" />
   
 <!-- Common Tree -->
-<project path="device/motorola/sdm660-common" name="device_motorola_sdm660-common.git" remote="rushiranpise" revision="ppui" />
+<project path="device/motorola/sdm660-common" name="device_motorola_sdm660-common.git" remote="rushiranpise" revision="ppui-plus" />
 
  <!-- Vendor tree -->
 <project path="vendor/motorola/chef" name="vendor_motorola_chef.git" remote="rushiranpise" revision="twelve" />
   
 <!-- Vendor Common Tree  -->
-<project path="vendor/motorola/sdm660-common" name="vendor_motorola_sdm660-common.git" remote="rushiranpise" revision="nightlight" />
+<project path="vendor/motorola/sdm660-common" name="vendor_motorola_sdm660-common.git" remote="rushiranpise" revision="twelve" />
    
 <!-- Kernel Tree -->
 <project path="kernel/motorola/msm8998" name="kernel_motorola_msm8998.git" remote="pedev" revision="twelve" />
