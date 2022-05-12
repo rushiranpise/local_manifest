@@ -24,5 +24,5 @@
 <project path="kernel/motorola/msm8998" name="kernel_motorola_msm8998.git" remote="pedev" revision="twelve" />
 
  <!-- Dep -->
- 
+ <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display.git" remote="pe" revision="twelve" />
 </manifest>
