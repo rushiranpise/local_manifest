@@ -21,6 +21,4 @@
  <!-- HW Tree -->
 <project path="hardware/motorola" name="android_hardware_motorola.git" remote="los" revision="lineage-19.1" />
  
- <!-- Dep -->
-<project path="system/qcom" name="android_system_qcom.git" remote="los" revision="lineage-19.1" />
 </manifest>
