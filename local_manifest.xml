@@ -4,6 +4,7 @@
 <remote name="los" fetch="https://github.com/LineageOS" />
 <remote name="mup" fetch="https://github.com/TheMuppets" />
 <remote name="rushi" fetch="https://github.com/rushiranpise" />
+<remote name="pe" fetch="https://github.com/PixelExperience" />  
 
 <!--Trees-->
 <!-- Device Tree -->
@@ -18,7 +19,7 @@
 <!-- Kernel Tree -->
 <project path="kernel/motorola/msm8998" name="android_kernel_motorola_msm8998.git" remote="los" revision="lineage-19.1" />
   
- <!-- HW Tree -->
-<project path="hardware/motorola" name="android_hardware_motorola.git" remote="los" revision="lineage-19.1" />
+ <!-- Dep -->
+ <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display.git" remote="pe" revision="twelve" />
  
 </manifest>
