@@ -21,5 +21,6 @@
   
  <!-- Dep -->
  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display.git" remote="pe" revision="twelve" />
+ <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9.git" remote="los" revision="lineage-19.1" />  
  
 </manifest>
