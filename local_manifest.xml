@@ -28,5 +28,6 @@
 <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display.git" remote="pe" revision="twelve" />
 <remove-project name="kernel/configs" path="kernel/configs" />
 <project path="kernel/configs" name="kernel_configs.git" remote="pe" revision="twelve" />
- 
+<project path="hardware/motorola" name="hardware_motorola.git" remote="aosp-12.1" />
+
 </manifest>
