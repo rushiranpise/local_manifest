@@ -4,6 +4,7 @@
 <remote name="los" fetch="https://github.com/LineageOS" />
 <remote name="mup" fetch="https://github.com/TheMuppets" />
 <remote name="rushi" fetch="https://github.com/rushiranpise" />
+<remote name="pe" fetch="https://github.com/PixelExperience" />  
 <remote name="kernel" fetch="https://github.com/LineageOS" review="https://review.lineageos.org/" revision="refs/heads/lineage-19.1" />  
 
 <!--Trees-->
