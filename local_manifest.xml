@@ -18,7 +18,7 @@
 <project path="vendor/motorola" name="proprietary_vendor_motorola.git" remote="mup" revision="lineage-19.1" />
    
 <!-- Kernel Tree -->
-<project path="kernel/motorola/msm8998" name="android_kernel_motorola_msm8998.git" remote="los" revision="lineage-19.1" />
+<project path="kernel/motorola/msm8998" name="android_kernel_motorola_msm8998.git" remote="rushi" revision="dot" />
   
  <!-- Dep -->
 <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
