@@ -2,7 +2,7 @@
 <manifest>
 <!--Remote-->
 <remote name="los" fetch="https://github.com/LineageOS" />
-<remote name="mup" fetch="https://github.com/TheMuppets" />
+<remote name="mup" fetch="https://gitlab.com/rushiranpise" />
 <remote name="rushi" fetch="https://github.com/rushiranpise" />
 <remote name="aicpp" fetch="https://github.com/AICP" />  
 
