@@ -14,7 +14,7 @@
 <project path="device/motorola/sdm660-common" name="device_motorola_sdm660-common.git" remote="aicpp" revision="s12.1" />
 
  <!-- Vendor tree -->
-<project path="vendor/motorola" name="proprietary_vendor_motorola.git" remote="mup" revision="lineage-19.1" />
+<project path="vendor/motorola" name="proprietary_vendor_motorola.git" remote="mup" revision="s12.1" />
    
 <!-- Kernel Tree -->
 <project path="kernel/motorola/msm8998" name="kernel_motorola_msm8998.git" remote="aicpp" revision="s12.1" />
