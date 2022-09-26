@@ -7,7 +7,7 @@
 
 <!--Trees-->
 <!-- Device Tree -->
-<project path="device/motorola/chef" name="android_device_motorola_chef.git" remote="los" revision="lineage-19.1" />
+<project path="device/motorola/chef" name="android_device_motorola_chef-lineage.git" remote="rushi" revision="ancient" />
   
 <!-- Common Tree -->
 <project path="device/motorola/sdm660-common" name="android_device_motorola_sdm660-common.git" remote="los" revision="lineage-19.1" />
@@ -21,6 +21,4 @@
  <!-- HW Tree -->
 <project path="hardware/motorola" name="android_hardware_motorola.git" remote="los" revision="lineage-19.1" />
  
- <!-- Dep -->
-<project path="system/qcom" name="android_system_qcom.git" remote="los" revision="lineage-19.1" />
 </manifest>
