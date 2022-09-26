@@ -4,13 +4,14 @@
 <remote name="los" fetch="https://github.com/LineageOS" />
 <remote name="mup" fetch="https://github.com/TheMuppets" />
 <remote name="rushi" fetch="https://github.com/rushiranpise" />
-
+<remote name="pee" fetch="https://github.com/PixelExperience" />
+  
 <!--Trees-->
 <!-- Device Tree -->
 <project path="device/motorola/chef" name="android_device_motorola_chef-lineage.git" remote="rushi" revision="ancient" />
   
 <!-- Common Tree -->
-<project path="device/motorola/sdm660-common" name="android_device_motorola_sdm660-common.git" remote="los" revision="lineage-19.1" />
+<project path="device/motorola/sdm660-common" name="android_device_motorola_sdm660-common.git" remote="rushi" revision="ancient" />
 
  <!-- Vendor tree -->
 <project path="vendor/motorola" name="proprietary_vendor_motorola.git" remote="mup" revision="lineage-19.1" />
@@ -20,5 +21,7 @@
   
  <!-- HW Tree -->
 <project path="hardware/motorola" name="android_hardware_motorola.git" remote="los" revision="lineage-19.1" />
- 
+
+ <!-- Dep -->
+<project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display.git" remote="pee" revision="twelve" />  
 </manifest>
