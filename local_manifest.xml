@@ -19,7 +19,7 @@
 <project path="vendor/motorola/sdm660-common" name="vendor_motorola_sdm660-common.git" remote="rushiranpise" revision="twelve" />
    
 <!-- Kernel Tree -->
-<project path="kernel/motorola/msm8998" name="kernel_motorola_msm8998.git" remote="pedev" revision="twelve" />
+<project path="kernel/motorola/msm8998" name="kernel_motorola_msm8998.git" remote="rushi" revision="twelve" />
   
  <!-- HW Tree -->
 <project path="hardware/motorola" name="hardware_motorola.git" remote="pe" revision="twelve" />
