@@ -8,6 +8,9 @@
 <!--Trees-->
   
 <!-- Patches -->
+
+<remove-project name="android_device_cherish_sepolicy" path="device/cherish/sepolicy" />
+<project path="device/cherish/sepolicy" name="android_device_cherish_sepolicy.git" remote="rushiranpise" revision="patch-1" />  
   
 <remove-project name="android_system_qcom" path="system/qcom" />
 <project path="system/qcom" name="system_qcom.git" remote="pe" revision="thirteen" />
@@ -19,7 +22,7 @@
 <project path="device/motorola/chef" name="device_motorola_chef.git" remote="rushiranpise" revision="cherish13temp" />
   
 <!-- Common Tree -->
-<project path="device/motorola/sdm660-common" name="device_motorola_sdm660-common.git" remote="rushiranpise" revision="cherish" />
+<project path="device/motorola/sdm660-common" name="device_motorola_sdm660-common.git"  remote="pe" revision="thirteen" />
 
  <!-- Vendor tree -->
 <project path="vendor/motorola/chef" name="vendor_motorola_chef.git" remote="rushiranpise" revision="twelve" />
