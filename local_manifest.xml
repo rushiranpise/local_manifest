@@ -11,11 +11,9 @@
 
 <remove-project name="android_device_cherish_sepolicy" path="device/cherish/sepolicy" />
 <project path="device/cherish/sepolicy" name="android_device_cherish_sepolicy.git" remote="rushiranpise" revision="patch-1" />  
-  
-<remove-project name="android_system_qcom" path="system/qcom" />
+
 <project path="system/qcom" name="system_qcom.git" remote="pe" revision="thirteen" />
   
-<remove-project name="kernel/configs" path="kernel/configs" />
 <project path="kernel/configs" name="kernel_configs.git" remote="pe" revision="thirteen" />
   
 <!-- Device Tree -->
