@@ -13,9 +13,6 @@
 <project path="device/cherish/sepolicy" name="android_device_cherish_sepolicy.git" remote="rushiranpise" revision="patch-1" />  
 
 <project path="system/qcom" name="system_qcom.git" remote="pe" revision="thirteen" />
- 
-<remove-project name="kernel/configs" path="kernel/configs" />  
-<project path="kernel/configs" name="kernel_configs.git" remote="pe" revision="thirteen" />
   
 <!-- Device Tree -->
 <project path="device/motorola/chef" name="device_motorola_chef.git" remote="rushiranpise" revision="cherish13temp" />
