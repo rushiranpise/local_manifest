@@ -4,25 +4,24 @@
 <remote name="los" fetch="https://github.com/LineageOS" />
 <remote name="mup" fetch="https://github.com/TheMuppets" />
 <remote name="rushi" fetch="https://github.com/rushiranpise" />
-<remote name="npjohnson" fetch="https://github.com/npjohnson" />
-<remote name="motoonepower" fetch="https://github.com/motoonepower" />  
+<remote name="cr" fetch="https://github.com/crdroidandroid" />
 
 <!--Trees-->
 <!-- Device Tree -->
-<project path="device/motorola/chef" name="android_device_motorola_chef.git" remote="los" revision="lineage-20" />
-  
+<project path="device/motorola/chef" name="android_device_motorola_chef-lineage.git" remote="rushi" revision="cr" />
+
 <!-- Common Tree -->
-<project path="device/motorola/sdm660-common" name="android_device_motorola_sdm660-common.git" remote="motoonepower" revision="lineage-20" />
+<project path="device/motorola/sdm660-common" name="android_device_motorola_sdm660-common.git" remote="cr" revision="12.1" />
 
  <!-- Vendor tree -->
 <project path="vendor/motorola" name="proprietary_vendor_motorola.git" remote="mup" revision="lineage-19.1" />
-   
+
 <!-- Kernel Tree -->
-<project path="kernel/motorola/msm8998" name="android_kernel_motorola_msm8998.git" remote="npjohnson" revision="lineage-20" />
-  
+<project path="kernel/motorola/msm8998" name="android_kernel_motorola_msm8998.git" remote="los" revision="lineage-19.1" />
+
  <!-- HW Tree -->
-<project path="hardware/motorola" name="android_hardware_motorola.git" remote="los" revision="lineage-20" />
- 
+<project path="hardware/motorola" name="android_hardware_motorola.git" remote="los" revision="lineage-19.1" />
+
  <!-- Dep -->
-<project path="system/qcom" name="android_system_qcom.git" remote="los" revision="lineage-20" />
+<project path="system/qcom" name="android_system_qcom.git" remote="los" revision="lineage-19.1" />
 </manifest>
