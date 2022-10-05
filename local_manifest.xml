@@ -6,7 +6,7 @@
 <remote name="rushi" fetch="https://github.com/rushiranpise" />
 <remote name="motoonepower" fetch="https://github.com/motoonepower" />  
 <remove-project name="android_device_cherish_sepolicy" path="device/cherish/sepolicy" />
-<project path="device/cherish/sepolicy" name="android_device_cherish_sepolicy.git" remote="rushiranpise" revision="patch-1" />  
+<project path="device/cherish/sepolicy" name="android_device_cherish_sepolicy.git" remote="rushi" revision="patch-1" />  
 <!--Trees-->
 <!-- Device Tree -->
 <project path="device/motorola/chef" name="android_device_motorola_chef.git" remote="los" revision="lineage-20" />
