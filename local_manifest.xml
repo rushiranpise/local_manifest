@@ -5,9 +5,6 @@
 <remote name="pe" fetch="https://github.com/PixelExperience" />
 <remote name="pedev" fetch="https://github.com/PixelExperience-Devices" />
 
-<remove-project name="frameworks_opt_telephony" path="frameworks/opt/telephony" />
-<project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="rushiranpise" revision="thirteen"/>
- 
 <!--Trees-->
 <!-- Device Tree -->
 <project path="device/motorola/chef" name="device_motorola_chef.git" remote="rushiranpise" revision="PE13" />
@@ -22,7 +19,7 @@
 <project path="vendor/motorola/sdm660-common" name="vendor_motorola_sdm660-common.git" remote="rushiranpise" revision="thirteen" />
    
 <!-- Kernel Tree -->
-<project path="kernel/motorola/msm8998" name="kernel_motorola_msm8998.git" remote="rushiranpise" revision="thirteen" />
+<project path="kernel/motorola/msm8998" name="kernel_motorola_msm8998.git" remote="pedev" revision="thirteen" />
   
  <!-- HW Tree -->
 <project path="hardware/motorola" name="hardware_motorola.git" remote="pe" revision="thirteen" />
