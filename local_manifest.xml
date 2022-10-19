@@ -11,7 +11,7 @@
 <project path="device/motorola/chef" name="android_device_motorola_chef-lineage.git" remote="rushi" revision="patch-1" />
   
 <!-- Common Tree -->
-<project path="device/motorola/sdm660-common" name="android_device_motorola_sdm660-common.git" remote="rushi" revision="patch-1" />
+<project path="device/motorola/sdm660-common" name="android_device_motorola_sdm660-common.git" remote="rushi" revision="crdroid13" />
 
  <!-- Vendor tree -->
 <project path="vendor/motorola" name="proprietary_vendor_motorola.git" remote="mup" revision="lineage-19.1" />
