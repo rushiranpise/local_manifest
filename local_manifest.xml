@@ -25,10 +25,10 @@
  <!-- Dep -->
 <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display.git" remote="pee" revision="twelve" />  
   
-<remove-project name="hardware_qcom_media" path="hardware/qcom/media" />
+<remove-project name="platform/hardware/qcom/media" path="hardware/qcom/media" />
 <project name="hardware_qcom_media.git" path="hardware/qcom/media" remote="pee" revision="twelve" />
   
-<remove-project name="hardware_qcom_audio" path="hardware/qcom/audio" />
+<remove-project name="platform/hardware/qcom/audio" path="hardware/qcom/audio" />
 <project name="hardware_qcom_audio.git" path="hardware/qcom/audio" remote="pee" revision="twelve" />
   
 <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio.git" remote="pee" revision="twelve" />  
