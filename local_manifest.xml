@@ -24,4 +24,7 @@
  
  <!-- Dep -->
 <project path="system/qcom" name="android_system_qcom.git" remote="los" revision="lineage-20" />
+  
+<remove-project name="crdroidandroid/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
+<project name="android_frameworks_opt_telephony.git" path="hardware/qcom/media" remote="rushi" revision="13.0" />  
 </manifest>
