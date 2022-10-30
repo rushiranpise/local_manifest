@@ -8,10 +8,10 @@
 
 <!--Trees-->
 <!-- Device Tree -->
-<project path="device/motorola/chef" name="android_device_motorola_chef-lineage.git" remote="rushi" revision="patch-1" />
+<project path="device/motorola/chef" name="android_device_motorola_chef-lineage.git" remote="rushi" revision="fix" />
   
 <!-- Common Tree -->
-<project path="device/motorola/sdm660-common" name="android_device_motorola_sdm660-common.git" remote="rushi" revision="patch-2" />
+<project path="device/motorola/sdm660-common" name="android_device_motorola_sdm660-common.git" remote="rushi" revision="fix" />
 
  <!-- Vendor tree -->
 <project path="vendor/motorola/chef" name="proprietary_vendor_motorola_chef.git" remote="mup" revision="lineage-20" />
@@ -24,7 +24,7 @@
  
  <!-- Dep -->
 <project path="system/qcom" name="android_system_qcom.git" remote="los" revision="lineage-20" />
-  
-<remove-project name="crdroidandroid/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
+ 
+<remove-project name="crdroidandroid/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />	
 <project name="android_frameworks_opt_telephony.git" path="hardware/qcom/media" remote="rushi" revision="13.0" />  
 </manifest>
