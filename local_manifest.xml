@@ -2,36 +2,37 @@
 <manifest>
 <!--Remote-->
 <remote name="los" fetch="https://github.com/LineageOS" />
-<remote name="mup" fetch="https://github.com/TheMuppets" />
+<remote name="mup" fetch="https://gitlab.com/the-muppets" />
 <remote name="rushi" fetch="https://github.com/rushiranpise" />
 <remote name="pee" fetch="https://github.com/PixelExperience" />
   
 <!--Trees-->
 <!-- Device Tree -->
-<project path="device/motorola/chef" name="android_device_motorola_chef-lineage.git" remote="rushi" revision="ancient" />
+<project path="device/motorola/chef" name="android_device_motorola_chef-lineage.git" remote="rushi" revision="ancient13" />
   
 <!-- Common Tree -->
-<project path="device/motorola/sdm660-common" name="android_device_motorola_sdm660-common.git" remote="rushi" revision="ancient" />
+<project path="device/motorola/msm8998-common" name="android_device_motorola_msm8998-common.git" remote="los" revision="lineage-20" />
 
  <!-- Vendor tree -->
-<project path="vendor/motorola" name="proprietary_vendor_motorola.git" remote="mup" revision="lineage-19.1" />
+<project path="vendor/motorola/chef" name="proprietary_vendor_motorola_chef.git" remote="mup" revision="lineage-20" />
+  <project path="vendor/motorola/msm8998-common" name="proprietary_vendor_motorola_msm8998-common.git" remote="mup" revision="lineage-20" />
    
 <!-- Kernel Tree -->
-<project path="kernel/motorola/msm8998" name="android_kernel_motorola_msm8998.git" remote="los" revision="lineage-19.1" />
+<project path="kernel/motorola/msm8998" name="android_kernel_motorola_msm8998.git" remote="los" revision="lineage-20" />
   
  <!-- HW Tree -->
-<project path="hardware/motorola" name="android_hardware_motorola.git" remote="los" revision="lineage-19.1" />
+<project path="hardware/motorola" name="android_hardware_motorola.git" remote="los" revision="lineage-20" />
 
  <!-- Dep -->
-<project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display.git" remote="pee" revision="twelve" />  
+<project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display.git" remote="pee" revision="thirteen" />  
   
 <remove-project name="platform/hardware/qcom/media" path="hardware/qcom/media" />
-<project name="hardware_qcom_media.git" path="hardware/qcom/media" remote="pee" revision="twelve" />
+<project name="hardware_qcom_media.git" path="hardware/qcom/media" remote="pee" revision="thirteen" />
   
 <remove-project name="platform/hardware/qcom/audio" path="hardware/qcom/audio" />
-<project name="hardware_qcom_audio.git" path="hardware/qcom/audio" remote="pee" revision="twelve" />
+<project name="hardware_qcom_audio.git" path="hardware/qcom/audio" remote="pee" revision="thirteen" />
   
-<project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio.git" remote="pee" revision="twelve" />  
-<project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media.git" remote="pee" revision="twelve" />  
+<project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio.git" remote="pee" revision="thirteen" />  
+<project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media.git" remote="pee" revision="thirteen" />  
 
 </manifest>
