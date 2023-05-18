@@ -24,7 +24,8 @@
 <project path="hardware/motorola" name="android_hardware_motorola.git" remote="los" revision="lineage-20" />
 
  <!-- Dep -->
-<project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display.git" remote="pee" revision="thirteen" />  
+<project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display.git" remote="pee" revision="thirteen" />
+<remove-project path="external/zstd" name="platform/external/zstd" />
 <project path="external/zstd" name="android_external_zstd.git" remote="los" revision="lineage-20" /> 
   
 <remove-project name="platform/hardware/qcom/media" path="hardware/qcom/media" />
