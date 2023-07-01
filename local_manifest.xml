@@ -8,20 +8,20 @@
 
 <!--Trees-->
 <!-- Device Tree -->
-<project path="device/motorola/chef" name="android_device_motorola_chef.git" remote="los" revision="lineage-20" />
+<project path="device/motorola/chef" name="android_device_motorola_chef.git" remote="los" revision="lineage-19.1" />
   
 <!-- Common Tree -->
-<project path="device/motorola/sdm660-common" name="android_device_motorola_sdm660-common.git" remote="motoonepower" revision="lineage-20" />
+<project path="device/motorola/sdm660-common" name="android_device_motorola_sdm660-common.git" remote="rushi" revision="patch-3" />
 
  <!-- Vendor tree -->
 <project path="vendor/motorola" name="proprietary_vendor_motorola.git" remote="mup" revision="lineage-19.1" />
    
 <!-- Kernel Tree -->
-<project path="kernel/motorola/msm8998" name="android_kernel_motorola_msm8998.git" remote="los" revision="lineage-20" />
+<project path="kernel/motorola/msm8998" name="android_kernel_motorola_msm8998.git" remote="los" revision="lineage-19.1" />
   
  <!-- HW Tree -->
-<project path="hardware/motorola" name="android_hardware_motorola.git" remote="los" revision="lineage-20" />
+<project path="hardware/motorola" name="android_hardware_motorola.git" remote="los" revision="lineage-19.1" />
  
  <!-- Dep -->
-<project path="system/qcom" name="android_system_qcom.git" remote="los" revision="lineage-20" />
+<project path="system/qcom" name="android_system_qcom.git" remote="los" revision="lineage-19.1" />
 </manifest>
