@@ -24,4 +24,5 @@
  
  <!-- Dep -->
 <project path="system/qcom" name="android_system_qcom.git" remote="los" revision="lineage-20" />
+<project path="external/bson" name="android_external_bson.git" remote="los" revision="lineage-20" />
 </manifest>
