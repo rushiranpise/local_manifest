@@ -17,7 +17,7 @@
 <project path="vendor/motorola/chef" name="proprietary_vendor_motorola_chef.git" remote="mup" revision="lineage-20" />
  <project path="vendor/motorola/msm8998-common" name="proprietary_vendor_motorola_msm8998-common.git" remote="mup" revision="lineage-20" />  
 <!-- Kernel Tree -->
-<project path="kernel/motorola/msm8998" name="android_kernel_motorola_msm8998.git" remote="los" revision="lineage-20" />
+<project path="kernel/motorola/msm8998" name="android_kernel_motorola_msm8998.git" remote="rushi" revision="wifi" />
   
  <!-- HW Tree -->
 <project path="hardware/motorola" name="android_hardware_motorola.git" remote="los" revision="lineage-20" />
