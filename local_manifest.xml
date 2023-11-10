@@ -5,7 +5,9 @@
 <remote name="mup" fetch="https://gitlab.com/the-muppets" />
 <remote name="rushi" fetch="https://github.com/rushiranpise" />
 <remote name="crd" fetch="https://github.com/crdroidandroid" />  
-
+<remote name="rushizgithub" fetch="https://github.com/rushizgithub" /> 
+<remove-project path="vendor/lineage" name="RisingTechOSS/android_vendor_rising" />
+<project path="vendor/lineage" name="android_vendor_rising.git" remote="rushizgithub" revision="thirteen" />  
 <!--Trees-->
 <!-- Device Tree -->
 <project path="device/motorola/chef" name="android_device_motorola_chef.git" remote="crd" revision="13.0" />
