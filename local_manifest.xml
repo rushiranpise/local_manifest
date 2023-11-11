@@ -8,6 +8,8 @@
 <remote name="rushizgithub" fetch="https://github.com/rushizgithub" /> 
 <remove-project path="vendor/lineage" name="RisingTechOSS/android_vendor_rising" />
 <project path="vendor/lineage" name="android_vendor_rising.git" remote="rushizgithub" revision="thirteen" />  
+<remove-project path="frameworks/base" name="RisingTechOSS/android_frameworks_base" />
+<project path="frameworks/base" name="android_frameworks_base.git" remote="rushizgithub" revision="thirteen" />  
 <!--Trees-->
 <!-- Device Tree -->
 <project path="device/motorola/chef" name="android_device_motorola_chef.git" remote="crd" revision="13.0" />
