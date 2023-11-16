@@ -26,4 +26,7 @@
  <!-- Dep -->
 <project path="system/qcom" name="android_system_qcom.git" remote="los" revision="lineage-21" />
 <project path="external/bson" name="android_external_bson.git" remote="los" revision="lineage-21" />
+
+<remove-project path="external/chromium-webview/prebuilt/arm64" name="LineageOS/android_external_chromium-webview_prebuilt_arm64"/>
+<project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64.git" remote="los" revision="backup/main_20230314" />
 </manifest>
