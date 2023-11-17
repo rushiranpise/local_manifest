@@ -22,7 +22,7 @@
 <project path="kernel/motorola/msm8998" name="android_kernel_motorola_msm8998.git" remote="seven" revision="lineage-21_verity" />
   
  <!-- HW Tree -->
-<project path="hardware/motorola" name="android_hardware_motorola.git" remote="los" revision="lineage-21" />
+<project path="hardware/motorola" name="android_hardware_motorola.git" remote="crd" revision="14.0" />
  
  <!-- Dep -->
 <project path="system/qcom" name="android_system_qcom.git" remote="los" revision="lineage-21" />
