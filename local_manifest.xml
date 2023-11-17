@@ -8,16 +8,16 @@
 
 <!--Trees-->
 <!-- Device Tree -->
-<project path="device/motorola/chef" name="android_device_motorola_chef-lineage.git" remote="rushi" revision="dolby" />
+<project path="device/motorola/chef" name="android_device_motorola_chef.git" remote="los" revision="lineage-20" />
   
 <!-- Common Tree -->
 <project path="device/motorola/msm8998-common" name="android_device_motorola_msm8998-common.git" remote="los" revision="lineage-20" />
 
  <!-- Vendor tree -->
-<project path="vendor/motorola/chef" name="proprietary_vendor_motorola_chef.git" remote="rushi" revision="lineage-20" />
+<project path="vendor/motorola/chef" name="proprietary_vendor_motorola_chef.git" remote="mup" revision="lineage-20" />
  <project path="vendor/motorola/msm8998-common" name="proprietary_vendor_motorola_msm8998-common.git" remote="mup" revision="lineage-20" />  
 <!-- Kernel Tree -->
-<project path="kernel/motorola/msm8998" name="android_kernel_motorola_msm8998.git" remote="rushi" revision="wifi" />
+<project path="kernel/motorola/msm8998" name="android_kernel_motorola_msm8998.git" remote="los" revision="lineage-20" />
   
  <!-- HW Tree -->
 <project path="hardware/motorola" name="android_hardware_motorola.git" remote="los" revision="lineage-20" />
