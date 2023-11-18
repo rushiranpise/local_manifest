@@ -19,10 +19,10 @@
 <project path="vendor/motorola/msm8998-common" name="proprietary_vendor_motorola_msm8998-common.git" remote="mup" revision="lineage-21" />
    
 <!-- Kernel Tree -->
-<project path="kernel/motorola/msm8998" name="android_kernel_motorola_msm8998.git" remote="seven" revision="lineage-21_verity" />
+<project path="kernel/motorola/msm8998" name="android_kernel_motorola_msm8998.git" remote="crd" revision="14.0" />
   
  <!-- HW Tree -->
-<project path="hardware/motorola" name="android_hardware_motorola.git" remote="crd" revision="14.0" />
+<project path="hardware/motorola" name="android_hardware_motorola.git" remote="los" revision="lineage-21" />
  
  <!-- Dep -->
 <project path="system/qcom" name="android_system_qcom.git" remote="los" revision="lineage-21" />
